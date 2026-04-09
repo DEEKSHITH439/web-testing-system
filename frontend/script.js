@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:3000";
+const BASE_URL = window.location.origin;
 
 async function runTest() {
     const url = document.getElementById("urlInput").value.trim();
