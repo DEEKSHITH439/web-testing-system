@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Automation Testing System 🚀</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🚀 Automation Testing System</h1>
+
+    <div class="input-box">
+        <input id="urlInput" placeholder="Enter website URL (https://example.com)">
+        <button onclick="runTest()" id="btn">Run Test</button>
+    </div>
+
+    <div class="note">Open the app from the backend server at <code>http://127.0.0.1:3000/index.html</code></div>
+    <div id="loading" class="loading"></div>
+
+    <!-- RESULT -->
+    <div id="result" class="card"></div>
+
+    <!-- SEO -->
+    <div id="seoBox" class="card hidden"></div>
+
+    <!-- IMAGE -->
+    <img id="img" class="preview hidden"/>
+
+    <!-- PDF -->
+    <a id="pdf" target="_blank" class="download hidden"></a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
